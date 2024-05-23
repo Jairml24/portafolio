@@ -1,0 +1,14 @@
+.work-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f7f7ff;
+    border-bottom: 1px solid #ccc;
+    margin:0;
+}
+
+.work-card label{
+    background-color: #980094;
+    color:white;
+    padding: 10px;
+}

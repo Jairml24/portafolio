@@ -1,0 +1,36 @@
+.menu{
+    width: 100%;
+    background: #0c0c14;
+    height: 100%;
+    text-align: center;
+
+}
+
+.menu img{
+    width: 50%;
+    border-radius:50%;
+    margin: 60px 0;
+    
+}
+
+.menu-items{
+    text-align: left;
+
+}
+
+.menu-items li,.menu-items a{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.8);   
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 38px;
+}
+
+.menu-items a:hover{
+    color: white;
+    transition: all .5s;
+    
+}
