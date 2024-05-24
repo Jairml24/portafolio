@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background:     #0B0B13;
+    margin:0;
+    color:white;
+    gap:20px;
+    padding: 10px;
+}
+
+.card img{
+    width: 40px;
+    /* height: 40px; */
+}
+.card aside{
+    width: 80%;
+}
+
+.card h4{
+    font-size: 18px;
+}
+
+.card p{
+    font-size: 16px;
+    color:#ccc
+}
+.card label{
+    background-color: #980094;
+    font-size: 14px;
+
+    color:white;
+    padding: 5px 8px;
+    white-space: nowrap;
+}

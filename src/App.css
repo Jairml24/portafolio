@@ -1,8 +1,69 @@
-body{
+body {
     margin: 0;
     padding: 0;
+    color:white;
 }
 
-.container-menu{
-    min-height: 100vh;
+.container-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 19%;
+}
+
+.contenido {
+    background: #10101A;
+    padding: 60px;
+    width: 81%;
+    margin-left: 19%;
+    /* transition: all .5s; */
+}
+
+.contenido>*{
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    .container-menu {
+        display: none;
+    }
+
+    .contenido {
+        width: 100%;
+        margin-left:0;
+        padding: 20px;
+    }
+
+    .menu-hamburguesa{
+        display: block;
+    }
+}
+
+h2{
+    font-family: "Azeret Mono", monospace;
+    font-weight: normal;
+    margin-bottom: 40px;
+
+}
+h2::before {
+    content: "";
+    position:relative;
+    display:block;
+    z-index: 10;
+    width: 50px;
+    background: #980094;
+    height: 1px;
+    top:42px;
+}
+h2::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: block;
+    position:relative;
+    margin-left: 50px;
+    background: #980094;
 }

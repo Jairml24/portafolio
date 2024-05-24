@@ -1,0 +1,37 @@
+.contact input,textarea{
+    background-color:#0B0B13 ;
+    color:white;
+    border:1px solid #63757D;
+    padding: 10px;
+}
+
+.contact form>*{
+    margin: 20px;
+}
+
+.contact>div{
+    display:flex;
+    gap: 20px;
+}
+
+.contact>div>div{
+    width: 50%;
+    background-color: #0B0B13;
+    padding: 10px 20px;
+
+}
+
+.contact form{
+    background-color: #0B0B13;
+
+}
+.contact label{
+    margin:30px 0;
+    color: #CFCFD1;
+    font-size: 17px;
+    line-height: 30px;   
+}
+
+.contact i{
+    color:#980094;
+}
