@@ -1,7 +1,7 @@
 import './Card.css'
 
 export default function Card({ logo = '', tittle, description, time }) {
-    const image=logo!=''?<div><img src={logo} /></div>:''
+    const image=logo!==''?<div><img src={logo} alt="description" /></div>:''
     return (
         <div className='card'> 
             {image}
