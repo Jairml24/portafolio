@@ -3,6 +3,7 @@
  display: flex;
  align-items: center;
  justify-content: space-between;
+ /* background: #000; */
 }
 
 .home aside{
@@ -31,30 +32,17 @@
     line-height: 30px;   
 }
 
+.home div{
+    width: 45%;
 
-
+}
 .home img{
     border-radius: 50%;
-    width: 45%;
+    width: 100%;
+    /* box-shadow: 4px 4px 0px 0px #006bdd; */
  }
 
- /* .typing-effect {
-    font-family: monospace;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 0;
-    overflow: hidden;
-    animation: typing 1s steps(30, end), blink-caret .75s step-end infinite;
-  }
-  @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-  }
-
-  @keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: black; }
-  } */
+ 
 
  @media screen and (max-width: 480px) {
     .home{
@@ -63,8 +51,12 @@
     .home aside{
         width: 100%;
     }
-    .home img{
-        width: 70%;
+    .home div{
+        width: 100%;
+        margin-top: 40px;
         text-align: center;
+    }
+    .home img{
+        width: 90%
     }
 }

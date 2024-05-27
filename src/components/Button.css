@@ -1,18 +1,19 @@
 .button{
     color:white;
-    background-color: #980094;
+    background-color: #006bdd;
     padding: 12px 30px;
     border:none;
     box-shadow: 4px 4px 0px 0px #fff;
     text-decoration: none;
     list-style: none;
+    transition: all .5s;
+
 }
 
 .button:hover{
-    color:#980094;
+    color:#006bdd;
     background-color: white;
-    box-shadow: 4px 4px 0px 0px #980094;
-    transition: all .5s;
+    box-shadow: 4px 4px 0px 0px #006bdd;
     text-decoration: none;
     list-style: none;
 }

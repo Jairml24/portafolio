@@ -1,0 +1,40 @@
+.information{
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+}
+.information-description{
+    display: none;
+    position:absolute;
+    z-index: 1;
+    top:115%;
+    background-color: #2292a1f5;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.information img{
+    width: 100px;
+    cursor:pointer;
+    
+}
+.information a:hover + .information-description {
+    display: block;
+}
+
+
+.information-description>h5{
+    margin:0
+}
+
+.information-description::before{
+    content: '';
+    position: absolute;
+    top: -20px; /* Ajusta la posición vertical según sea necesario */
+    left: calc(50% - 10px); /* Centra la flecha horizontalmente */
+    border-width: 10px; /* Tamaño de la flecha */
+    border-style: solid;
+    border-color: transparent transparent #2292a1f5 transparent;
+}

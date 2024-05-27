@@ -1,0 +1,28 @@
+.services>div{
+   display:flex;
+   gap:20px 50px;
+   text-align: justify;
+   flex-wrap: wrap;
+}
+
+.services .card:hover{
+    background-color: #980094;
+}
+
+.services .card{
+    width: calc(50% - 50px);
+    padding:20px;
+    transition: all .3s;
+}
+
+@media screen and (max-width: 480px) {
+    .services>div{
+        display: block;
+        width: 100%;
+    }
+    .services .card{
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+}

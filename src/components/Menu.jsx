@@ -13,7 +13,7 @@ export default function Menu(){
                 <ul>
                     <li><i class="fas fa-home"></i><a href="#inicio">INICIO</a></li>
                     <li><i class="fas fa-info-circle"></i><a href="#acerca_de_mi">ACERCA DE MI</a></li>
-                    <li><i class="fas fa-tools"></i><a href="#sevicios">SERVICIOS</a></li>
+                    <li><i class="fas fa-tools"></i><a href="#servicios">SERVICIOS</a></li>
                     <li><i class="fas fa-briefcase"></i><a href="#portafolio">PORTAFOLIO</a></li>
                     <li><i class="fas fa-envelope"></i><a href="#contacto">CONTÁCTAME</a></li>
                 </ul>

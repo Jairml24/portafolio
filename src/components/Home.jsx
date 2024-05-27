@@ -12,7 +12,7 @@ export default function AboutMe(){
                 <label htmlFor="">Diseño y desarrollo servicios para clientes de todos los tamaños, especializándome en la creación de sitios web, servicios web y tiendas en línea modernos y elegantes.</label>
             <Button tittle='Descargar CV' />
             </aside>
-            <img src={foto} alt="" / >
+            <div><img src={foto} alt="" / ></div>
         </div>
     )
 }

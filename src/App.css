@@ -39,6 +39,16 @@ body {
     .menu-hamburguesa{
         display: block;
     }
+
+    .experience>div{
+        display: block;
+    }
+    .experience .card{
+        margin-bottom: 20px;
+    }
+    .experience .card aside{
+        width: 100%;
+    }
 }
 
 h2{

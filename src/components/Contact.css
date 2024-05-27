@@ -33,5 +33,21 @@
 }
 
 .contact i{
-    color:#980094;
+    color:#fa2bf3;
+}
+
+@media screen and (max-width: 480px) {
+    .contact div{
+        display: block!important;
+        width: 100%;
+        /* background-color: red; */
+    }
+    .contact div>div{
+        width: 100% !important;
+    }
+
+    .contact form>*{
+        margin: 20px 0;
+    }
+
 }

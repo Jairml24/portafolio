@@ -4,10 +4,17 @@
 }
 
 .portfolio img{
-    width: 30%;
+    width: 420px;
     height: 200px;
     object-fit: cover;
     border:1px solid #ccc;
     cursor:pointer;
+
+}
+
+@media screen and (max-width: 480px) {
+    .portfolio img{
+        width:100%
+    }
 
 }

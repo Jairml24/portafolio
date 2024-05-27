@@ -1,0 +1,16 @@
+
+@media screen and (max-width: 480px) {
+    .about-me>div{
+        display: block!important;
+        width: 100%;
+        /* background-color: red; */
+    }
+    .about-me>div>div{
+        width: 100% !important;
+    }
+    .about-me .card{
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+}

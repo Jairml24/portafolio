@@ -21,8 +21,8 @@ export default function Contact() {
         <form className='row'>
           <input className='col-12 col-md-4' type="text" placeholder='Nombre *' />
           <input className='col-12 col-md-6' type="text" placeholder='Correo electrónico *' />
-          <input className='col-12' type="text" placeholder='Asunto *' />
-          <textarea className='col-12' name="" placeholder='Mensaje *'></textarea>
+          <input className='col-12 col-md-11' type="text" placeholder='Asunto *' />
+          <textarea className='col-12 col-md-11' name="" placeholder='Mensaje *'></textarea>
           <div> <Button tittle='Enviar mensaje' /></div>
         </form>
       </div>
