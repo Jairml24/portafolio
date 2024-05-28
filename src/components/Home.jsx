@@ -1,6 +1,6 @@
 import './Home.css'
 import Button from './Button'
-import foto from './../assets/images/foto.jpg'
+import foto from './../assets/images/foto1.jpg'
 
 export default function AboutMe(){
     return(

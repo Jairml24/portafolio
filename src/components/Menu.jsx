@@ -1,5 +1,5 @@
 import './Menu.css'
-import foto from '../assets/images/foto.jpg'
+import foto from '../assets/images/foto1.jpg'
 import SocialMedia from './SocialMedia'
 import React, { useState } from 'react';
 
