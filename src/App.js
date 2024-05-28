@@ -10,9 +10,7 @@ import './App.css'
 export default function App() {
   return (
     <div className="m-0">
-      <div className="container-menu">
         <Menu /> 
-      </div>
       <div className="contenido">
         <AboutMe />
         <Education />   

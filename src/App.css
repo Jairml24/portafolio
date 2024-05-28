@@ -4,14 +4,14 @@ body {
     color:white;
 }
 
-.container-menu {
+/* .container-menu {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     z-index: 1;
     width: 19%;
-}
+} */
 
 .contenido {
     background: #10101A;
@@ -26,18 +26,15 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    .container-menu {
-        display: none;
-    }
-
     .contenido {
         width: 100%;
         margin-left:0;
         padding: 20px;
-    }
+        margin-top: 50px;
 
-    .menu-hamburguesa{
-        display: block;
+    }
+    .contenido>*{
+        padding-top: 50px;
     }
 
     .experience>div{
@@ -48,6 +45,9 @@ body {
     }
     .experience .card aside{
         width: 100%;
+    }
+    h2::before { 
+        top: 34px !important;;
     }
 }
 

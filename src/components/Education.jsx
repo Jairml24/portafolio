@@ -22,9 +22,9 @@ const data = [{
 export default function Experience() {
   return (
     <div id='acerca_de_mi' className='about-me'>
-      <h2>EDUCACIÓN Y HABILIDADES</h2>
+      <h2>EDUCACIÓN, HABILIDADES</h2>
       <div style={{ display: 'flex', gap: '20px' }}>
-        <div style={{ width: '45%' }}>
+        <div >
           {data.map((element, index) => (
             <Card key={index} tittle={element.tittle} description={element.description} time={element.time} />
           ))}
@@ -39,6 +39,8 @@ export default function Experience() {
             <Information tittle='php' description='Lenguaje backend'/>
             <Information tittle='laravel' description='Framework de php'/>
             <Information tittle='wordpress' description='CMS de php'/>
+            <Information tittle='postgres' description='Base de datos'/>
+            <Information tittle='mysql' description='Base de datos'/>
             <Information tittle='linux' description='Sistema operativo'/>
           </div>
         </div>

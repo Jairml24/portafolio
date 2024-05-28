@@ -1,5 +1,3 @@
-import './Button.css'
-
 export default function SocialMedia() {
     return (  
         <div class="social-media mt-4" style={{fontSize:'20px'}}>
