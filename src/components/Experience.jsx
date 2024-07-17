@@ -5,10 +5,11 @@ const data = [{
   description: 'MPCH | Presencial | Agosto 2020 - Diciembre 2023 - Desarrollador de aplicaciones con Framework Laravel - BD Postgres',
   time: 'TIEMPO COMPLETO'
 },
+
 {
-  logo: '/images/untrm.png',
-  tittle: 'Desarrollador de aplicaciones moviles',
-  description: 'UNTRM | Presencial | Enero 2024 - Diciembre 2024 - Desarrollo de aplicaciones con React Native',
+  logo: '/images/gorea.png',
+  tittle: 'Desarrollador de aplicaciones web',
+  description: 'GOREA | Presencial | Enero 2019 - Diciembre 2020 - Desarrollo de aplicaciones con PHP',
   time: 'TIEMPO COMPLETO'
 }
 ]
