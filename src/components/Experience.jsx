@@ -10,12 +10,6 @@ const data = [{
   tittle: 'Desarrollador de aplicaciones moviles',
   description: 'UNTRM | Presencial | Enero 2024 - Diciembre 2024 - Desarrollo de aplicaciones con React Native',
   time: 'TIEMPO COMPLETO'
-},
-{
-  logo: '/images/gorea.png',
-  tittle: 'Desarrollador de aplicaciones web',
-  description: 'GOREA | Presencial | Enero 2019 - Diciembre 2020 - Desarrollo de aplicaciones con PHP',
-  time: 'TIEMPO COMPLETO'
 }
 ]
 export default function Experience() {
