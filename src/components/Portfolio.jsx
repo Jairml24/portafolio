@@ -9,6 +9,8 @@ export default function Portfolio() {
         <Information tittle='superheroes' description='Pagina web' url='https://jonatandev-superheroes.netlify.app/' />
         <Information tittle='maestro_abad' description='Pagina web' url='http://elgranmaestroabad.com/' />
         <Information tittle='maestro_amarres' description='Pagina web' url='http://maestroamarres.com/' />
+        <Information tittle='peliculas' description='Pagina web' url='https://jonatanpelis.netlify.app/' />
+        <Information tittle='tic' description='Pagina web' url='https://jonatangame.netlify.app/' />
       </div>
     </div>
   )
